@@ -1,0 +1,6 @@
+name: sistema-gerenciador-disciplinas
+services:
+  postgresql:
+    extends:
+      file: ./postgresql.yml
+      service: postgresql
